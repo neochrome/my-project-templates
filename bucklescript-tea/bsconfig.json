@@ -1,0 +1,22 @@
+{
+	"name": "app",
+	"package-specs": {
+		"module": "es6",
+    "in-source": true
+	},
+  "suffix": ".bs.js",
+	"sources": [
+		{ "dir": "src", "subdirs": true }
+	],
+	"bsc-flags": [
+		"-bs-super-errors",
+		"-bs-g"
+	],
+	"warnings": {
+		"number": "-23-44",
+		"error": "+101+8"
+	},
+	"bs-dependencies" : [
+		"bucklescript-tea"
+	]
+}

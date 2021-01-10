@@ -1,0 +1,6 @@
+lib/
+.merlin
+.bsb.lock
+src/*.bs.js
+public/bundle.js*
+node_modules/
