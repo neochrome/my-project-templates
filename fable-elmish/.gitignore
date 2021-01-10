@@ -1,0 +1,7 @@
+.paket/
+paket-files/
+src/bin/
+src/obj/
+.ionide/
+node_modules/
+public/bundle.js*
